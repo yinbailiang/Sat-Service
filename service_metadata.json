@@ -1,0 +1,13 @@
+{
+    "name":"sat_service",
+    "env":{
+        "type": "conda",
+        "name": "Sat-Service",
+        "python": "3.12",
+        "config": "pyproject.toml"
+    },
+    "pytorch":"cuda",
+    "boot":"./src/main.py",
+    "git":"https://github.com/yinbailiang/Sat-Service.git",
+    "status_endpoint":"http://127.0.0.1:8003/status"
+}

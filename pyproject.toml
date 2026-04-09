@@ -1,0 +1,16 @@
+[project]
+name = "sat-service"
+version = "0.1.0"
+
+dependencies = [
+  "requests",
+  "fastapi",
+  "uvicorn",
+  "pydantic",
+  "pydantic-settings",
+  "torch",
+  "torchaudio",
+  "torchvision",
+  "transformers",
+  "wtpsplit",
+]

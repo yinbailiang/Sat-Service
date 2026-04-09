@@ -1,0 +1,5 @@
+.vscode/
+
+models/
+
+*.egg-info
